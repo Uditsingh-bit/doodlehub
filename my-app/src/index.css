@@ -1,0 +1,61 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.menu_container {
+  position: absolute;
+  top: 20px;
+  width: 900px;
+  left: 50%;
+  transform: translateX(-50%);
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  border: 2px solid #3A3A3A;
+  box-shadow: 0 0 20px rgba(90, 91, 76, 0.35);
+  padding-left: 10px;
+  padding-right: 10px;
+  background: #FFF7CC;
+  height: 60px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.eraser_icon {
+  transform: translateY(4px);
+}
+
+.menu_button {
+  width: 40px;
+  height: 40px;
+  border-radius: 8px;
+  border: none;
+  transition: 0.3s;
+  background: #fff7cc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.menu_button:hover {
+  background: #FFFBEB;
+}
+
+.menu_button_active {
+  width: 40px;
+  height: 40px;
+  border-radius: 8px;
+  border: none;
+  box-shadow: 0 0 5px rgba(90, 91, 76, 0.35);
+  background: #FFFBEB;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cursor {
+  transition: 0.1s;
+}
