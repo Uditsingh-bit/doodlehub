@@ -1,6 +1,6 @@
 # DoodleHub - A Realtime Whiteboard
 Team: CodeCrafters  
-Members: Tanya Sharma & Udit Raj Singh
+Members: Udit Raj Singh & Tanya Sharma
 
 DoodleHub is a realtime collaborative whiteboard built using React, Node.js, Socket.IO, and the HTML5 Canvas API.  
 Multiple users can draw, edit, and interact together on a shared canvas with live updates.  
